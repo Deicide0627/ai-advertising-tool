@@ -53,8 +53,8 @@
             "vite": "^6.3.5"
       },
       "scripts": {
-            "dev": "vite",
-            "build": "vite build",
-            "preview": "vite preview"
+            "dev": "pnpm vite",
+            "build": "pnpm vite build --mode production",
+            "preview": "pnpm vite preview"
       }
 }
